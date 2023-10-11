@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&family=Ubuntu:wght@500&display=swap');
+.content-hero-image{
+    background-image: url("../assets/hero-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    color: #F0EFF0;
+    height: 70vh;
+}
+.rgba{
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-hero-image .info{
+    max-width: 800px;
+    text-align: center;
+}
+.content-hero-image .info *{
+    margin: 5px 0;
+}
+.content-hero-image .info p{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 4rem;
+}
+.content-hero-image .info .p{
+    font-size: 3rem;
+}
+.content-hero-image .info h1{
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: 8px;
+    font-size: 3rem;
+}
+.content-hero-image .info button{
+    background-color: #02a9d0;
+    border: none;
+    font-size: 1.2rem;
+    padding: 4px 15px 5px 15px;
+    border-radius: 2px;
+    color: #F0EFF0;
+    cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 20px;
+
+    transition: background-color .1s ease,padding .1s ease;
+}
+.content-hero-image .info button:hover{
+    background-color: #0093b4;
+    padding: 4px 20px 5px 20px;
+
+
+}

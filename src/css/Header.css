@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&family=Ubuntu:wght@500&display=swap');
+
+.header {
+  height: 60px;
+}
+.nav {
+  max-width: 1500px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  height: inherit;
+  padding: 0 20px;
+}
+
+.nav img {
+  display: block;
+  width: 50px;
+
+}
+.nav .links {
+  margin-left: auto;
+}
+
+.nav .links a {
+  display: inline-block;
+  margin-left: 50px;
+  font-weight: bolder;
+  color: black;
+  transition: color .1s ease;
+  font-family: 'Ubuntu', sans-serif;
+}
+.nav .links a:hover {
+  color: #02a9d0;
+}
+.theme {
+  margin-left: 200px;
+  /* border: 1px solid black; */
+}
+.theme i {
+  color: #02a9d0;
+  font-size: 1.8rem;
+  cursor: pointer;
+}

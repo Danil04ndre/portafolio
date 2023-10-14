@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+.content-about {
+  max-width: 1500px;
+  display: flex;
+  margin: 100px auto;
+  font-family: "Ubuntu", sans-serif;
+  justify-content: center;
+  padding: 0 20px;
+}
+.content-about h2,
+h3 {
+  color: #02a9d0;
+}
+.content-about p {
+  margin-bottom: 8px;
+}
+
+.content-about .description {
+  padding: 20px 20px;
+  width: 60%;
+  position: relative;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+.image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 350px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.image img {
+  width: 100%;
+  height: 100%;
+  filter: grayscale(5%) brightness(83%);
+  object-fit: cover;
+}
+.elevado {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: -25px;
+  left: -25px;
+  background: linear-gradient(to left, #02a9d0, rgb(43, 42, 42));
+  z-index: -1;
+}
+.elevado2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 25px;
+  right: -25px;
+  background: linear-gradient(to right, #02a9d0, rgb(43, 42, 42));
+  z-index: -1;
+}
+
+@media screen and (max-width: 1200px) {
+  .image {
+    width: 300px;
+  }
+  .content-about .description {
+    padding: 10px 20px;
+    width: 65%;
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .image {
+    width: 300px;
+  }
+  .content-about .description {
+    padding: 10px 20px;
+    width: 65%;
+    font-size: 0.98rem;
+  }
+  .elevado {
+    top: -20px;
+    left: -20px;
+  }
+  .elevado2 {
+    top: 20px;
+    right: -20px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .content-about .description {
+    width: 80%;
+  }
+  .content-about {
+    flex-direction: column;
+    align-items: center;
+  }
+  .image {
+    width: 80%;
+    background-color: white;
+    padding: 50px 0;
+    box-shadow: none !important;
+    border: 2px solid rgb(219, 219, 219);
+    border-bottom: none;
+  }
+  .description {
+    box-shadow: none !important;
+    border: 2px solid rgb(219, 219, 219);
+    border-top: none;
+  }
+  .image img {
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .content-about .description {
+    width: 95%;
+  }
+  .image {
+    width: 95%;
+  }
+  .image img {
+    width: 300px;
+  }
+  .content-about h2 {
+    font-size: 1.1rem;
+  }
+  .content-about h3 {
+    font-size: 1rem;
+  }
+  .content-about .description {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .content-about {
+    margin: 60px auto;
+  }
+  .content-about .description {
+    width: 100%;
+  }
+  .image {
+    width: 100%;
+    padding: 20px 0;
+  }
+  .description {
+    padding: 7px 10px !important;
+  }
+  .last {
+    margin: 0 !important;
+  }
+  .image img {
+    max-width: 230px;
+  }
+  .elevado {
+    top: -15px;
+    left: -15px;
+  }
+  .elevado2 {
+    top: 15px;
+    right: -15px;
+  }
+}
+
+@media screen and (max-width: 310px) {
+  .image img {
+    max-width: 180px;
+  }
+}

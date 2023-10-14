@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap");
+.content-skills {
+  max-width: 1500px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-auto-rows: 220px;
+  gap: 1rem 2rem;
+  padding: 0 20px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+}
+.content-skills .card {
+  padding: 20px;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
+    rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 5px;
+}
+#skills h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 100px;
+}
+.card .card-image img {
+  width: 100px;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+.card:hover .card-image img {
+  transform: scale(1.1);
+}
+.content-skills p {
+  margin-top: 5px;
+  font-size: 1.1rem;
+}
+.content-skills progress {
+  font-size: 1.2rem;
+}
+
+@media screen and (max-width: 690px) {
+  .content-skills .card {
+    padding: 10px;
+  justify-content: space-between;
+
+  }
+  .content-skills progress {
+    width: 160px;
+    font-size: 0.6rem;
+  }
+
+  .content-skills p {
+    font-size: 1rem;
+  }
+  .content-skills {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-auto-rows: 160px;
+  }
+  #skills h2 {
+    font-size: 1.8rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .content-skills {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 0.5rem 0.5rem;
+    padding: 0 10px;
+  }
+  .card .card-image img {
+    width: 60px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #skills h2 {
+    font-size: 1.5rem;
+    margin-bottom: 60px;
+  }
+}

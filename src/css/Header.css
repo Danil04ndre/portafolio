@@ -1,7 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&family=Ubuntu:wght@500&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&family=Ubuntu:wght@500&display=swap");
 .header {
-  height: 60px;
+  height: 65px;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  background-color: white;
+  transition: height 200ms ease-in;
 }
 .nav {
   max-width: 1500px;
@@ -14,30 +19,83 @@
 
 .nav img {
   display: block;
-  width: 50px;
-
+  width: 55px;
 }
 .nav .links {
   margin-left: auto;
 }
-
-.nav .links a {
+.nav .links a,
+button {
   display: inline-block;
   margin-left: 50px;
   font-weight: bolder;
   color: black;
-  transition: color .1s ease;
-  font-family: 'Ubuntu', sans-serif;
+  transition: color 0.1s ease;
+  font-family: "Ubuntu", sans-serif;
 }
 .nav .links a:hover {
   color: #02a9d0;
 }
-.theme {
-  margin-left: 200px;
-  /* border: 1px solid black; */
+
+.nav button {
+  border: none;
+  background: none;
 }
-.theme i {
+.nav i {
   color: #02a9d0;
   font-size: 1.8rem;
   cursor: pointer;
+}
+.hamburguer {
+  display: none;
+}
+
+.scrolled{
+  height: 60px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+@media screen and (max-width: 900px) {
+  .hamburguer {
+    display: block;
+  }
+  .nav .links {
+    position: fixed;
+    z-index: -1;
+    top: 60px;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    background-color: white;
+    pointer-events: none;
+    border-top: 1px solid beige;
+  }
+  .nav .links a {
+    display: block;
+    margin: 10px 0 10px 20px;
+  }
+  .nav-active {
+    opacity: 1 !important;
+    pointer-events: auto !important;
+  }
+  .nav {
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .nav {
+    padding: 0 10px;
+  }
+  .nav i {
+    font-size: 1.7rem;
+  }
+  .nav .links a {
+    font-size: 0.9rem;
+    margin: 9px 0 9px 10px;
+  }
+  .nav img {
+    width: 45px;
+  }
 }

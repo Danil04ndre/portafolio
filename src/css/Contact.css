@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap");
+.contact {
+  font-family: "Ubuntu", sans-serif;
+  display: flex;
+  margin: 0 auto;
+  padding: 20px 0;
+  justify-content: center;
+  column-gap: 5rem;
+  background-color: #02a9d0;
+  font-weight: 600;
+}
+
+.contact i {
+  font-size: 1.5rem !important;
+  margin-right: 10px;
+}
+.contact span {
+  font-size: 1.2rem;
+  margin-right: 10px;
+}
+.contact a {
+  font-size: 1.2rem;
+  margin-right: 10px;
+  color: black;
+}
+.contact a i {
+  font-size: 1.2rem;
+  margin-right: 10px;
+  color: black;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 900px) {
+  .contact span {
+    font-size: 1rem;
+  }
+  .contact a {
+    font-size: 1rem;
+  }
+  .contact a i {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 660px) {
+  .contact {
+    column-gap: 2rem;
+  }
+  .contact a {
+    margin-right: 5px;
+  }
+  .contact a i {
+    margin-right: 5px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+    .contact {
+      column-gap: 1.5rem;
+    }
+
+    .contact span {
+        font-size: .9rem;
+      }
+      .contact a {
+        font-size: .9rem;
+      }
+      .contact a i {
+        font-size: .8rem;
+      }
+  }
+  
+  @media screen and (max-width: 500px) {
+    .contact {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 1rem;
+      }
+  }
+  

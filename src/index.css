@@ -1,9 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 :root {
   line-height: 1.5;
-  font-family: 'Open Sans', sans-serif;
-
+  font-family: "Open Sans", sans-serif;
 }
+html { 
+  scroll-behavior: smooth
+}
+
 body,
 * {
   box-sizing: border-box;
@@ -11,7 +14,90 @@ body,
   padding: 0;
 }
 
-
 a {
   text-decoration: none;
+}
+.active-link {
+  color: #02a9d0 !important;
+
+}
+#about-me {
+  scroll-margin-top: 160px;
+}
+#start{
+  scroll-margin-top: 60px;
+}
+#skills{
+  scroll-margin-top: 120px;
+}
+#projects{
+  scroll-margin-top: 120px;
+}
+.dark {
+  background-color: #1d1c24 !important;
+}
+.dark .header {
+  background-color: #29282e !important;
+}
+.dark .description {
+  background-color: #29282e !important;
+  color: #cecdc9 !important;
+}
+.dark nav a {
+  color: #cecdc9 !important;
+  font-weight: 500 !important;
+  transition: color 0.1s ease;
+}
+.dark .links{
+  transition: none;
+
+}
+.dark .nav-active{
+  background-color: #29282e !important;
+  border-top: 1px solid rgb(75, 75, 75);
+}
+.dark nav a:hover {
+  color: #02a9d0 !important;
+  font-weight: 500 !important;
+}
+.dark .active-link {
+  color: #02a9d0 !important;
+
+}
+.dark #skills h2{
+  color: #cecdc9 !important;
+}
+.dark #projects h2{
+  color: #cecdc9 !important;
+}
+.dark .card{
+  background-color: #29282e !important;
+  color: #cecdc9 !important;
+}
+.dark .info p{
+  color: #cecdc9 !important;
+}
+.dark .info a{
+  color: #f0efef !important;
+}
+@media screen and (max-width: 950px) {
+  .dark .image {
+    background-color: #29282e;
+    border: 1px solid rgb(75, 75, 75);
+    border-bottom: none;
+  }
+  .dark .description {
+    border: 1px solid rgb(75, 75, 75);
+    border-top: none;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  #about-me {
+    scroll-margin-top: 120px;
+  }
+  #skills {
+    scroll-margin-top: 120px;
+  }
 }

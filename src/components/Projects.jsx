@@ -143,7 +143,7 @@ const Projects = () => {
         <div className="info">
           <h3>CRUD</h3>
           <p>
-            Esta proyecto permite a los usuarios realizar operaciones de Crear,
+            Este proyecto permite a los usuarios realizar operaciones de Crear,
             Leer, Actualizar y Eliminar (CRUD) en un conjunto de datos.
           </p>
 

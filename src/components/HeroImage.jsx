@@ -8,7 +8,13 @@ const HeroImage = () => {
           <p>Hola, me presento:</p>
           <h1>DANILO VILLAVICENCIO</h1>
           <p className="p">Programador</p>
-          <button>OBSERVAR CV</button>
+          <a
+            href="https://drive.google.com/file/d/1VPOJR4UZCREceo-PBa-dO6pjZJW3Z1L3/view"
+            target="_blank"
+            rel="noreferrer"
+          >
+            OBSERVAR CV
+          </a>
         </div>
       </div>
     </section>

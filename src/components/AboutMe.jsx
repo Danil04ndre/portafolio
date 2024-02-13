@@ -14,7 +14,7 @@ const AboutMe = () => {
       <div className="description">
         <h2>SOBRE MI</h2>
         <p>
-          Soy un estudiante de programación y actualmente curso el 5to semestre
+          Soy un estudiante de programación y actualmente curso el 6to semestre
           de la carrera de &quot;Desarrollo de Sistemas de Información&quot;
           (una carrera de 3 años). Mi interés por la programación me ha llevado
           a complementar mi formación académica con estudios autodidactas. A

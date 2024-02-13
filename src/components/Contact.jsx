@@ -5,7 +5,7 @@ const Contact = () => {
     <section className="contact" id="contact">
       <div>
         <a
-          href="https://api.whatsapp.com/send/?phone=51903496241"
+          href="https://api.whatsapp.com/send/?phone=51944353476"
           target="_blank"
           rel="noreferrer"
         >

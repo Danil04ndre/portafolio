@@ -30,7 +30,7 @@ const initialSkills = [
   {
     image: react,
     name: "React JS",
-    progress: 50,
+    progress: 65,
   },
   {
     image: node,
@@ -51,6 +51,11 @@ const initialSkills = [
     image: git,
     name: "Git",
     progress: 40,
+  },
+  {
+    image: "https://logowik.com/content/uploads/images/redux.jpg",
+    name: "REDUX (ToolKit)",
+    progress: 0,
   },
 ];
 

@@ -9,7 +9,8 @@ const HeroImage = () => {
           <h1>DANILO VILLAVICENCIO</h1>
           <p className="p">Desarrollador Fullstack</p>
           <a
-            href="https://drive.google.com/file/d/1cZA7aSi2JZ2huYbpAwOd0r9ZTZ1zjtYc/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1P0VQ8KZWy1P2eHxUoHInjIS-gqyP9o8T/view?usp=drive_link"
+            
             target="_blank"
             rel="noreferrer"
           >

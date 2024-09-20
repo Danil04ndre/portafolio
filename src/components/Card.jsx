@@ -9,7 +9,6 @@ const Card = ({ el }) => {
       </div>
       <p>{name}</p>
       <div>
-        <progress id="progress" value={progress} max="100"></progress>
       </div>
     </div>
   );

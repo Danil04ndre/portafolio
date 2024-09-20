@@ -14,17 +14,13 @@ const AboutMe = () => {
       <div className="description">
         <h2>SOBRE MI</h2>
         <p>
-          Soy un estudiante de programación y actualmente curso el 6to semestre
-          de la carrera de &quot;Desarrollo de Sistemas de Información&quot;
+          Soy egresado de la carrera de &quot;Desarrollo de Sistemas de Información&quot;
           (una carrera de 3 años). Mi interés por la programación me ha llevado
           a complementar mi formación académica con estudios autodidactas. A
           través de ello, he adquirido conocimientos en CSS, JavaScript, React,
           Node, entre otros.
         </p>
         <p>
-          A pesar de no tener experiencia profesional, he completado desafiantes
-          proyectos personales, que me han ayudado a crecer como programador y a
-          enfrentar problemas reales.
         </p>
         <h3>Mi Objetivo</h3>
         <p className="last">
